@@ -1,0 +1,15 @@
+$TTL 86400
+
+@  		 IN  SOA     ns1.asf.com. root.asf.com. (
+       			 2024011501  ;Serial
+		        3600        ;Refresh
+		        1800        ;Retry
+		        604800      ;Expire
+		        86400       ;Minimum TTL
+)
+
+@      		IN  NS      ns1.asf.com.
+@      		IN  NS      ns2.asf.com.
+
+1     	 	IN  PTR     ns1.asf.com.
+2      		IN  PTR     ns2.asf.com.
